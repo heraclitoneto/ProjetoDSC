@@ -1,6 +1,10 @@
-h1 {
+#h11 {
 
 	font-size: 60px;
 	color: #3366FF;
 	font-family: cursive;
+}
+
+h1 {
+	color: red;
 }
