@@ -9,9 +9,11 @@
 	</head>
 
 	<body>
+	<header>
 		<h1>DSC Advogados</h1>
 		<h2>Cadastro de Clientes</h2>
-
+    <header/>
+       <section>	
 		<form>
 
 
@@ -23,18 +25,18 @@
 			<label for="sobrenome"></label>
 			<input id = "sobrenome" type = "text"placeholder="sobrenome" />
 			<br>
-			<br>
+			
 			<label for="nascimento">Data de Nascimento</label>
 			<br>
 			<input id = "nascimento" type = "text"placeholder="mm/dd/aaaa" />
 			<br>
-			<br>
+			
 
 			<label for="sexo">Sexo</label>
 			<br>
 			<input id = "sexo" type = "text"placeholder="M/F" />
 			<br>
-			<br>
+			
 
 			<h4>Endereço</h4>
 
@@ -57,7 +59,7 @@
 			<label for="estado"></label>
 			<input id = "estado" type = "text"placeholder="estado" />
 			<br>
-			<br>
+			
 
 
 			<h4>Contato</h4>
@@ -73,21 +75,38 @@
 			<br>
 			<input id = "email" type = "text"placeholder="email para contato" />
 			<br>
-			<br>
+			
 
+			<h4>Dados do Processo</h4>
 
+			<label for="comarca">Comarca</label>
+			<br>
+			<input id = "comarca" type = "text"placeholder="comarca" />
+			<br>
+			
 
-			<input type=button onClick="location.href='processo.html'" value='Adicionar Processo'>
+			<label for="processo">Número do Processo</label>
 			<br>
+			<input id = "processo" type = "text"placeholder="processo" />
 			<br>
+			
 
-			<input type=button onClick="location.href='mensagemcadastrocli.html'" value='Cadastrar Cliente'>
+			<label for="valor">Valor da Causa</label>
 			<br>
+			<input id = "valor" type = "text"placeholder="valor" />
 			<br>
+			
+			<label for="acao">Natureza da Ação</label>
+			<br>
+			<input id = "acao" type = "text"placeholder="acao" />
+			<br>
+		     <br>
+			<button type ="submit">Criar Cadastro</button>
 
 
 		</form>
-
+         </section>
+		 <footer> </footer>
 
 	</body>
 
