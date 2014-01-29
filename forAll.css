@@ -1,34 +1,29 @@
 h1 {
 
 	font-size: 60px;
-	color:white;
+	color: #3366FF;
 	font-family: cursive;
-	background-position: top ;
 }
+
+
 #ptl{
 	font-size: 25px;
 }
-h2 {
-	color: white;
-}
-header{
-   background-color:#669999;
-   }
-section{
-   background-color:#669999;
-   text-align: left;
-   font-size: 20px;
-   
-   }
-body{
- background-color:#669999;
-} 
+			
 
-#c1 {
-		color: black;
-		text-align:center;
-		border-width: 20px;
-		border-style: solid;
-		border-color: white;
-		font-size: 20px;
-	}
+
+
+
+h2 {
+	color: red;
+}
+
+h4 {
+
+	font-family: garamond;
+}
+
+body {
+
+	background: #FFFFDD;
+}

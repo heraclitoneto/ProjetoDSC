@@ -10,15 +10,15 @@
 	</head>
 
 	<body>
-          <header>
+
 		<h1>DSC Advogados</h1>
-		<p id="ptl">Bem Vindos ao Site dos Advogados do Litoral Norte!</p>
-		
+		<p id="ptl">Bem vindos ao site dos advogados do litoral norte!</p>
+		<br>
 		<p>Se você é um advogado cadastrado terá acesso aos seus clientes e respectivos processos!</p>
 		<p>Se você é um cliente, poderá acompanhar seu processo com exclusividade!</p>
+		<br>
 		
-		   </header>
-	   <section id="c1"> 	
+		
 		<form> 
 			
 			<h4>Login Advogado</h4>
@@ -40,25 +40,24 @@
 			</label>
 			<br>
 
-			<button type="submit"><a href="advogadologado.html" style="text-decoration:none">Acessar</a></button>
+			<input type=button onClick="location.href='advogadologado.html'" value='Entrar'> 
+
+
 			<br>
 			<br>
 
 			<p> Não é cadastrado? <br> Clique <a href="cadastroadvogado.html">aqui</a> para se cadastrar</p>
 			<br>
 
-			
-
-
-		</form>
-       </section>
-	   <footer>
-	   <h4>Cliente</h4>
+			<h4>Cliente</h4>
 			<p>Digite o código do seu processo para acompanhá-lo:<p>
 			<label for="codigoprocesso"></label>
 			<input id="codigoprocesso" type = "text"placeholder="código do processo" />
 			<button type="submit">Acessar</button>
-	   </footer>
+
+
+		</form>
+
 
 	</body>
 
