@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_spring_projetodsc_domain_Cliente" object="${cliente}" path="/clientes" z="cjeyRgjFmnPYQxIJeIva+WCIK+o=">
+        <field:display field="name" id="s_spring_projetodsc_domain_Cliente_name" object="${cliente}" z="LUIj4k9O1YdMdEha47AT3PEfVhQ="/>
+        <field:display field="sexo" id="s_spring_projetodsc_domain_Cliente_sexo" object="${cliente}" z="Bh5TLJas3W670zqG5Vw22hd4HJA="/>
+        <field:display field="telefone" id="s_spring_projetodsc_domain_Cliente_telefone" object="${cliente}" z="UsefR+ADwRCsk4FVgtz8pxp9zhY="/>
+        <field:display field="endereco" id="s_spring_projetodsc_domain_Cliente_endereco" object="${cliente}" z="xATXBV+K+KVAuwtnGfVKq3oQelI="/>
+        <field:display field="email" id="s_spring_projetodsc_domain_Cliente_email" object="${cliente}" z="gjsrOCgLB8DFlg6KkH3f4DTrziM="/>
+        <field:display date="true" dateTimePattern="${cliente_datanascimento_date_format}" field="datanascimento" id="s_spring_projetodsc_domain_Cliente_datanascimento" object="${cliente}" z="64NpFxWzN7aLH+z3ciacGz6dOr0="/>
+    </page:show>
+</div>

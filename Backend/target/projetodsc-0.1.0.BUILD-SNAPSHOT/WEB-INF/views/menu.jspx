@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_cliente" z="OA12E4nwdOcMU0p7LaQV8KKBm5E=">
+            <menu:item id="i_cliente_new" messageCode="global_menu_new" url="/clientes?form" z="cDLtjRjIN5c0dyE1ltBb0Mk1DJo="/>
+            <menu:item id="i_cliente_list" messageCode="global_menu_list" url="/clientes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lk2UTVTUA9lz30A2vJEbY3GbO6E="/>
+        </menu:category>
+        <menu:category id="c_advogado" z="Ot3QbigaQrWM/gGZfQMFgMDSD18=">
+            <menu:item id="i_advogado_new" messageCode="global_menu_new" url="/advogadoes?form" z="vM2ua92yfi5zmeFIpeuU/Pb0eJg="/>
+            <menu:item id="i_advogado_list" messageCode="global_menu_list" url="/advogadoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KTz0qTh3g1rr4LqZ5AMYRt8/31w="/>
+        </menu:category>
+        <menu:category id="c_processo" z="MSqgSB7jZym123zAb4sdykVYRas=">
+            <menu:item id="i_processo_new" messageCode="global_menu_new" url="/processoes?form" z="oHTcQ2AURRNSQUq+yOvaHo+jzY4="/>
+            <menu:item id="i_processo_list" messageCode="global_menu_list" url="/processoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="9Q4LlBcfVvv4vuR3ogGC3MrVauc="/>
+        </menu:category>
+    </menu:menu>
+</div>

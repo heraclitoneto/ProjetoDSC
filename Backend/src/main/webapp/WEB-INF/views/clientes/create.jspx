@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_spring_projetodsc_domain_Cliente" modelAttribute="cliente" path="/clientes" render="${empty dependencies}" z="CaUn+PgdAqaxmLsW54EHrYieid0=">
+        <field:input field="name" id="c_spring_projetodsc_domain_Cliente_name" required="true" z="hGCrV6zSbeo3EP7PNqLerG0DQ0s="/>
+        <field:input field="sexo" id="c_spring_projetodsc_domain_Cliente_sexo" required="true" z="VZH2DGiRWhRMGr20KsjG208OCzU="/>
+        <field:input field="telefone" id="c_spring_projetodsc_domain_Cliente_telefone" required="true" z="6CTNGgcro4vqZhA86wBbsgWT7uU="/>
+        <field:input field="endereco" id="c_spring_projetodsc_domain_Cliente_endereco" required="true" z="t6DNTBVj5sGqUUYw4cCYxboafwM="/>
+        <field:input field="email" id="c_spring_projetodsc_domain_Cliente_email" required="true" validationMessageCode="field_invalid_email" z="phSU0Y8OJ16CUtcGW/4Bkc4bU/w="/>
+        <field:datetime dateTimePattern="${cliente_datanascimento_date_format}" field="datanascimento" id="c_spring_projetodsc_domain_Cliente_datanascimento" past="true" required="true" z="plTsl+Glon2baFv6WaWSdWSpPbs="/>
+        <field:simple field="processos" id="c_spring_projetodsc_domain_Cliente_processos" messageCode="entity_reference_not_managed" messageCodeAttribute="Processo" z="BkIAfvHuEI8jBZQdRaz7Ba85WGQ="/>
+        <field:simple field="advogados" id="c_spring_projetodsc_domain_Cliente_advogados" messageCode="entity_reference_not_managed" messageCodeAttribute="Advogado" z="yDamUNpDvLLdv3QSkjmak/XkJFw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_spring_projetodsc_domain_Cliente" render="${not empty dependencies}" z="7erEYhfw/D81dT0IEafU/sVmrbM="/>
+</div>

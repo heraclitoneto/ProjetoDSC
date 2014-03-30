@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_spring_projetodsc_domain_Processo" object="${processo}" path="/processoes" z="gjp+2ZxgciV38m57M30PXsYIlHA=">
+        <field:display field="name" id="s_spring_projetodsc_domain_Processo_name" object="${processo}" z="HFQj/8Vnrk9D7AynGN05cCTqGmg="/>
+        <field:display field="status" id="s_spring_projetodsc_domain_Processo_status" object="${processo}" z="YzUtVx5qbz2g05JMiMYFEzaccDI="/>
+        <field:display field="autor" id="s_spring_projetodsc_domain_Processo_autor" object="${processo}" z="9ie7gh2sHawJYetaLpE+Q3O9wvk="/>
+        <field:display field="descricao" id="s_spring_projetodsc_domain_Processo_descricao" object="${processo}" z="W+1oxj8tGC/lpxE1RogHqKAueqI="/>
+        <field:display date="true" dateTimePattern="${processo_dataabertura_date_format}" field="dataAbertura" id="s_spring_projetodsc_domain_Processo_dataAbertura" object="${processo}" z="WLL8NQdG+UBLNREnd4B35Q0ALoQ="/>
+        <field:display field="codigo" id="s_spring_projetodsc_domain_Processo_codigo" object="${processo}" z="vDfX12bq4ExJXNSMLS1+JVqZQVw="/>
+        <field:display field="cliente" id="s_spring_projetodsc_domain_Processo_cliente" object="${processo}" z="Bfl9VFuDxkanKO7aLinXAPfvhAc="/>
+    </page:show>
+</div>

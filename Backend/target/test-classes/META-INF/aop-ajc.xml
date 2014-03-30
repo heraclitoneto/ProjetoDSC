@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="spring.projetodsc.domain.ClienteIntegrationTest_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.ClienteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="spring.projetodsc.domain.ProcessoIntegrationTest_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.AdvogadoDataOnDemand_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.ProcessoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="spring.projetodsc.domain.ProcessoDataOnDemand_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.AdvogadoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="spring.projetodsc.domain.ClienteDataOnDemand_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.AdvogadoIntegrationTest_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.ProcessoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="spring.projetodsc.domain.ClienteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="spring.projetodsc.domain.AdvogadoDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+

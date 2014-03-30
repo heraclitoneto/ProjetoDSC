@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_spring_projetodsc_domain_Processo" items="${processoes}" z="azax30sE0BadkFEixx6zg+hFrqE=">
+        <table:table data="${processoes}" id="l_spring_projetodsc_domain_Processo" path="/processoes" z="2wJhCrpjpb35n/mUcjGzQARpNX0=">
+            <table:column id="c_spring_projetodsc_domain_Processo_name" property="name" z="NRqp6A3MsQMuRnQRUT1ME9RrV3Q="/>
+            <table:column id="c_spring_projetodsc_domain_Processo_status" property="status" z="E9PshIwD6hF6tuxsMrFhY94FWbY="/>
+            <table:column id="c_spring_projetodsc_domain_Processo_autor" property="autor" z="eOumYXGLKwUd7nsVHTlSJ/jmGYQ="/>
+            <table:column id="c_spring_projetodsc_domain_Processo_descricao" property="descricao" z="uYQtuq5NsMKr42FG2TqZssLqs5U="/>
+            <table:column date="true" dateTimePattern="${processo_dataabertura_date_format}" id="c_spring_projetodsc_domain_Processo_dataAbertura" property="dataAbertura" z="AxbWETkv8Cgds8b/XUlgMf38aTM="/>
+            <table:column id="c_spring_projetodsc_domain_Processo_codigo" property="codigo" z="+Yfktwmz0YzDOy+2y2YRlMCrumU="/>
+        </table:table>
+    </page:list>
+</div>

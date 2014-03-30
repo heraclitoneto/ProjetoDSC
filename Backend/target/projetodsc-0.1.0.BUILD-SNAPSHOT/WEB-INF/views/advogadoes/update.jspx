@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_spring_projetodsc_domain_Advogado" modelAttribute="advogado" path="/advogadoes" versionField="Version" z="FYvY5+U+sqpNGK/VpP9G/pyQZyA=">
+        <field:input field="name" id="c_spring_projetodsc_domain_Advogado_name" required="true" z="QBpO47UFs8oV0wmylYtMH9F7iNA="/>
+        <field:datetime dateTimePattern="${advogado_datanascimento_date_format}" field="datanascimento" id="c_spring_projetodsc_domain_Advogado_datanascimento" past="true" required="true" z="qYB31JRnlNB6VVHDbWzpkmwIgI0="/>
+        <field:input field="email" id="c_spring_projetodsc_domain_Advogado_email" required="true" validationMessageCode="field_invalid_email" z="93ZLuNd/sPYAvy2qkHwmKbeghI0="/>
+        <field:input field="endereco" id="c_spring_projetodsc_domain_Advogado_endereco" required="true" z="UJg5SFFe+qwFdTJg5GNReebnYJk="/>
+        <field:input field="telefone" id="c_spring_projetodsc_domain_Advogado_telefone" required="true" z="uQoyWp6aYVnKkIAlxHdgDwmu6JU="/>
+        <field:input field="sexo" id="c_spring_projetodsc_domain_Advogado_sexo" required="true" z="hd3VCh9zTLJ5GJQcn7WtaVSDnrY="/>
+        <field:simple field="clientes" id="c_spring_projetodsc_domain_Advogado_clientes" messageCode="entity_reference_not_managed" messageCodeAttribute="Cliente" z="jnMitWzD1rc6WYg4wFXppjUHhfI="/>
+    </form:update>
+</div>

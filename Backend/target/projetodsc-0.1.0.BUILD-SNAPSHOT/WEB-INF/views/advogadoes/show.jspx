@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_spring_projetodsc_domain_Advogado" object="${advogado}" path="/advogadoes" z="0m0XdTcYcMc4g4Wxgh3AAfL41l8=">
+        <field:display field="name" id="s_spring_projetodsc_domain_Advogado_name" object="${advogado}" z="vc45UOJIiGB6oHaTdxZFmtiQsec="/>
+        <field:display date="true" dateTimePattern="${advogado_datanascimento_date_format}" field="datanascimento" id="s_spring_projetodsc_domain_Advogado_datanascimento" object="${advogado}" z="jfFrFhwph5Q2hcNHFDPEWYsGxwo="/>
+        <field:display field="email" id="s_spring_projetodsc_domain_Advogado_email" object="${advogado}" z="7s+23HUkx7gDMjU21jaUb6VCdPA="/>
+        <field:display field="endereco" id="s_spring_projetodsc_domain_Advogado_endereco" object="${advogado}" z="/ljpKzMLTLOT/3EDv7iCtLeAaDE="/>
+        <field:display field="telefone" id="s_spring_projetodsc_domain_Advogado_telefone" object="${advogado}" z="XFAtGfWEsDI0MLqN5wCAbUwk3UM="/>
+        <field:display field="sexo" id="s_spring_projetodsc_domain_Advogado_sexo" object="${advogado}" z="WYgSja51arzemAiMFKtgMT8nXyg="/>
+    </page:show>
+</div>

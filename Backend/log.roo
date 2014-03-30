@@ -1,0 +1,44 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-29 23:35:16
+hint
+project --topLevelPackage spring.projetodsc
+jpa setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT
+entity jpa --class ~.domain.Cliente --testAutomatically
+entity jpa --class ~.domain.Advogado --testAutomatically
+entity jpa --class ~.domain.Processo --testAutomatically
+field string --fieldName name --class ~.domain.Cliente --notNull
+field string --fieldName sexo --notNull
+field string --fieldName telefone --notNull
+field string --fieldName endereco --notNull
+field string --fieldName email --notNull
+field date --fieldName datanascimento --type java.util.Date --past --notNull
+field string --fieldName name --class ~.domain.Advogado --notNull
+field date --fieldName datanascimento --type java.util.Date --past --notNull
+field string --fieldName email --notNull
+field string --fieldName endereco --notNull
+field string --fieldName telefone --notNull
+field string --fieldName sexo --notNull
+field string --fieldName name --class ~.domain.Processo --notNull
+field string --fieldName status --notNull
+field string --fieldName autor --notNull
+field string --fieldName descricao --notNull
+field date --fieldName dataAbertura --type java.util.Date --past --notNull
+field string --fieldName codigo --notNull
+field set --fieldName processos --type ~.domain.Processo --class ~.domain.Cliente --cardinality ONE_TO_MANY
+field reference --fieldName cliente --type ~.domain.Cliente --class ~.domain.Processo --notNull
+// [failed] field set --fieldName processos --type ~.domain.Processo --class ~.domain.Cliente --cardinality ONE_TO_MANY
+// [failed] field set --fieldName processos --type ~.domain.Processo --class ~.domain.Cliente --cardinality ONE_TO_MANY
+field set --fieldName clientes --type ~.domain.Cliente --class ~.domain.Advogado --cardinality ONE_TO_MANY
+field set --fieldName advogados --type ~.domain.Advogado --class ~.domain.Cliente --cardinality ONE_TO_MANY
+// [failed] field set --fieldName processos --type ~.domain.Processo --class ~.domain.Cliente --cardinality ONE_TO_MANY
+// [failed] field set --fieldName cliente --type ~.domain.Cliente --class ~.domain.Processo --cardinality ONE_TO_ONE
+// [failed] field set --fieldName cliente --type ~.domain.Cliente --class ~.domain.Processo --cardinality ONE_TO_MANY
+service type --interface ~.service.ClienteService --entity ~.domain.Cliente
+service type --interface ~.service.AdvogadoService --entity ~.domain.Advogado
+service type --interface ~.service.ProcessoService --entity ~.domain.Processo
+json all --deepSerialize
+web mvc json setup
+web mvc json all
+web mvc setup
+web mvc all --package ~.web
+quit
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-03-29 23:54:40

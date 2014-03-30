@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_spring_projetodsc_domain_Processo" modelAttribute="processo" path="/processoes" render="${empty dependencies}" z="uOwkskyNEX3OpVYcrmQmotPgQYA=">
+        <field:input field="name" id="c_spring_projetodsc_domain_Processo_name" required="true" z="gDAu4H41qd7ixtuwBCveHm1cPHs="/>
+        <field:input field="status" id="c_spring_projetodsc_domain_Processo_status" required="true" z="Jfn+PFa2+lKDyMD9ukUU3oZsRYE="/>
+        <field:input field="autor" id="c_spring_projetodsc_domain_Processo_autor" required="true" z="+w8Fa2geqxlku7tx2mIS9EWwVTk="/>
+        <field:input field="descricao" id="c_spring_projetodsc_domain_Processo_descricao" required="true" z="LQq7O985MZCE+Gw5K5Bq99LZUyo="/>
+        <field:datetime dateTimePattern="${processo_dataabertura_date_format}" field="dataAbertura" id="c_spring_projetodsc_domain_Processo_dataAbertura" past="true" required="true" z="dR1gdFei2Prvc2pmQ9q8vQye2zM="/>
+        <field:input field="codigo" id="c_spring_projetodsc_domain_Processo_codigo" required="true" z="v9gWzl1nzt4k/t7r8bX4Eq0L0aw="/>
+        <field:select field="cliente" id="c_spring_projetodsc_domain_Processo_cliente" itemValue="id" items="${clientes}" path="/clientes" required="true" z="+6I1VTR9sng7rBT0eoqwjnwPC7M="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_spring_projetodsc_domain_Processo" render="${not empty dependencies}" z="w8LM0MfgK4IeYUwqNmhQuYqvO28="/>
+</div>

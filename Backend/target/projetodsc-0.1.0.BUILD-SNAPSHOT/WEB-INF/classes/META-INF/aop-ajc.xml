@@ -1,0 +1,36 @@
+<aspectj>
+<aspects>
+<aspect name="spring.projetodsc.service.ClienteServiceImpl_Roo_Service"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_JavaBean"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_Jpa_ActiveRecord"/>
+<aspect name="spring.projetodsc.service.ProcessoServiceImpl_Roo_Service"/>
+<aspect name="spring.projetodsc.service.ProcessoService_Roo_Service"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_Json"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_ToString"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_ToString"/>
+<aspect name="spring.projetodsc.ProcessoController_Roo_Controller_Json"/>
+<aspect name="spring.projetodsc.AdvogadoController_Roo_Controller"/>
+<aspect name="spring.projetodsc.service.AdvogadoServiceImpl_Roo_Service"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_Jpa_Entity"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_Json"/>
+<aspect name="spring.projetodsc.service.ClienteService_Roo_Service"/>
+<aspect name="spring.projetodsc.ProcessoController_Roo_Controller"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_Jpa_Entity"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_Configurable"/>
+<aspect name="spring.projetodsc.ClienteController_Roo_Controller"/>
+<aspect name="spring.projetodsc.AdvogadoController_Roo_Controller_Json"/>
+<aspect name="spring.projetodsc.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_Jpa_ActiveRecord"/>
+<aspect name="spring.projetodsc.service.AdvogadoService_Roo_Service"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_Configurable"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_ToString"/>
+<aspect name="spring.projetodsc.domain.Cliente_Roo_Jpa_ActiveRecord"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_JavaBean"/>
+<aspect name="spring.projetodsc.ClienteController_Roo_Controller_Json"/>
+<aspect name="spring.projetodsc.domain.Processo_Roo_JavaBean"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_Jpa_Entity"/>
+<aspect name="spring.projetodsc.domain.Advogado_Roo_Json"/>
+</aspects>
+</aspectj>
+
